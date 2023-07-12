@@ -14,6 +14,7 @@
 // ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di POST/salvataggio!)
 
 //ESERCIZI IN JS
+
 // ESERCIZIO 7: Scrivi una funzione per cambiare il contenuto del tag h1 in qualcos'altro
 // ESERCIZIO 8: Scrivi una funzione per cambiare il colore di background della pagina
 // ESERCIZIO 9: Scrivi una funzione per cambiare l'indirizzo presente nel futuro in un altro, fittizio

@@ -1,12 +1,66 @@
+<!--
+ESERCIZIO 1: Inserisci un tag h1 con il nome del tuo negozio
+ESERCIZIO 2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+ESERCIZIO 3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+ESERCIZIO 4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+ESERCIZIO 5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di POST/salvataggio!) -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="row">
+    <img class="logo" src="assets/logo.svg">
+</section>
+    <h1>Negozio di smartphone</h1>
+    <section class="row">
+        <div class="product">
+            <img src="assets/product-1.png">
+            <div class="nome">
+            <h3>Galaxy S23</h3>
+            <p>Una galleria ricca di scatti epici catturati durante la notte che tutti vorranno</p>
+            <h4>€ 699,00</h4>
+
+            </div>
+        </div>
+        <div class="product">
+            <img src="assets/product-2.png">
+            <div class="nome">
+                <h3>iPhone 13</h3>
+                <p>Display Super Retina XDR da 6,1" più brillante con tecnologia always-on.</p>
+                <h4>€ 1315,00</h4>
+
+            </div>
+        </div>
+    </section>
+    <section class="row">
+        <div class="product">
+            <img src="assets/product-3.png">
+            <div class="nome">
+            <h3>OPPO Find X5 Pro</h3>
+            <p>Il processore OPPO Marisilicon X, interamente dedicato all’imaging.</p>
+            <h4>€ 599,00</h4>
+
+            </div>
+        </div>
+        <div class="product">
+            <img src="assets/product-4.png">
+            <div class="nome">
+                <h3>Nothing Phone (1)</h3>
+                <p>Ti presentiamo Nothing Phone (1). Glyph Interface. Doppia fotocamera da 50 MP.</p>
+                <h4>€ 459,00</h4>
+
+            </div>
+        </div>
+    </section>
 </body>
 </html>
