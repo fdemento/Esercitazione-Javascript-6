@@ -4,7 +4,6 @@
 }
 
 body {
-
     width: 80%;
     height: 100%;
     margin: 64px auto;
@@ -24,19 +23,23 @@ body {
 
 h1 {
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .product {
-
     width: 400px;
     background-color: white;
     border: solid 1px rgb(216, 216, 216);
     border-radius: 20px;
     padding: 32px;
+    margin: 18px;
     text-align: center;
-    margin: 32px 32px 0 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: 0.8s;
+}
+
+.product h4 {
+    color: red;
 }
 
 .product:hover {
@@ -51,4 +54,20 @@ h1 {
 
 .product h3,h4,p{
     margin-bottom: 8px;
+}
+
+.comment {
+    text-align: center;
+    width: 35%;
+    padding: 48px;
+    border: solid 1px rgb(216, 216, 216);
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p{
+    color: darkgray;
 }

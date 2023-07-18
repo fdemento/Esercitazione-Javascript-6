@@ -22,14 +22,15 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
     <img class="logo" src="assets/logo.svg">
 </section>
     <h1>Negozio di smartphone</h1>
+
+    <!-- PRIMA RIGA -->
     <section class="row">
         <div class="product">
             <img src="assets/product-1.png">
             <div class="nome">
-            <h3>Galaxy S23</h3>
-            <p>Una galleria ricca di scatti epici catturati durante la notte che tutti vorranno</p>
-            <h4>€ 699,00</h4>
-
+                <h3>Galaxy S23</h3>
+                <p>Una galleria ricca di scatti epici catturati durante la notte che tutti vorranno</p>
+                <h4>€ 699,00</h4>
             </div>
         </div>
         <div class="product">
@@ -38,18 +39,18 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
                 <h3>iPhone 13</h3>
                 <p>Display Super Retina XDR da 6,1" più brillante con tecnologia always-on.</p>
                 <h4>€ 1315,00</h4>
-
             </div>
         </div>
     </section>
+
+    <!-- SECONDA RIGA -->
     <section class="row">
         <div class="product">
             <img src="assets/product-3.png">
-            <div class="nome">
-            <h3>OPPO Find X5 Pro</h3>
-            <p>Il processore OPPO Marisilicon X, interamente dedicato all’imaging.</p>
+                <div class="nome">
+                <h3>OPPO Find X5 Pro</h3>
+                <p>Il processore OPPO Marisilicon X, interamente dedicato all’imaging.</p>
             <h4>€ 599,00</h4>
-
             </div>
         </div>
         <div class="product">
@@ -58,9 +59,36 @@ ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un comment
                 <h3>Nothing Phone (1)</h3>
                 <p>Ti presentiamo Nothing Phone (1). Glyph Interface. Doppia fotocamera da 50 MP.</p>
                 <h4>€ 459,00</h4>
-
             </div>
         </div>
     </section>
+
+    <!-- BOX COMMENTI -->
+    <section class="row">
+        <div class="comment">
+            <p>Lascia un commento!</p>
+            <form>
+                <label for="select">Seleziona lo smartphone</label><br>
+                <input list="smartphones" label="Che smartphone?" id="select">
+                <br>
+                <label for="select">Lascia un commento</label><br>
+                <input type="text" placeholder="Cosa vuoi scrivere?">
+                <br>
+                <input type="submit">
+
+                <datalist id="smartphones">
+                    <option value="Galaxy S23">
+                    <option value="iPhone 13">
+                    <option value="OPPO Find X5 Pro">
+                    <option value="Nothing Phone (1)">
+                </datalist>
+            </form>
+        </div>
+    </section>
 </body>
+<footer>
+    <p>
+        Negozio di smartphone di Francesco De Mento<br>Via Lecco, 12 20900 Monza (MB)
+    </p>
+</footer>
 </html>
