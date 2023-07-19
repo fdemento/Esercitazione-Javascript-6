@@ -48,26 +48,44 @@ h1 {
     transition: 0.8s;
 }
 
-.product img{
+.product img {
     height: 350px;
 }
 
-.product h3,h4,p{
+.product h3,h4,p {
     margin-bottom: 8px;
 }
 
 .comment {
-    text-align: center;
-    width: 35%;
-    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
     border: solid 1px rgb(216, 216, 216);
     border-radius: 20px;
+    background-color: white;
+    margin: 32px 32px;
+    padding: 32px;
 }
 
+.comment input {
+    width: 240px;
+    padding: 6px 6px;
+    margin-bottom: 12px;
+    border: solid 1px rgb(216, 216, 216);
+}
+
+.comment label {
+    font-size: 12px;
+}
+
+.comment .cta {
+    width: 100%;
+}
 footer {
     text-align: center;
 }
 
-footer p{
+footer p {
     color: darkgray;
 }
